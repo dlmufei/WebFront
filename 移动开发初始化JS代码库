@@ -27,6 +27,23 @@ function resize() {
 }
 resize();
 
+闭包形式
+/* var t0 = new Date().getTime();
+        (function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function() {
+                    var clientWidth = docEl.clientWidth;
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                };
+            // recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            win.addEventListener("DOMContentLoaded", recalc, false);
+        })(document, window);*/
+
+
+
 #分屏页面JS
 
 var evt = "onorientationchange" in window ? "orientationchange" : "resize";
