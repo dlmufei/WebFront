@@ -85,3 +85,10 @@ resize();
 @media screen and (min-width:480px) {
 　 html { font-size:64px;}
 }
+//扩展
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /*style*/
+}
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    /*style*/
+}
