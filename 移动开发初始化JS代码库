@@ -7,6 +7,7 @@
 <meta name="Copyright" content="Tencent" />
 <meta name="format-detection" content="telephone=no" />
 
+
 #长页面JS
 
 var evt = "onorientationchange" in window ? "orientationchange" : "resize";
