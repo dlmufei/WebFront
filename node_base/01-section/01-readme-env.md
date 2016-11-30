@@ -60,6 +60,14 @@ current version是7.2.0，而中文的还是4.4.4和6.2.0，
     >- nvmw ([github](https://github.com/hakobera/nvmw),
     [npm](https://www.npmjs.com/package/nvmw)) 看官网，对照linux下 n 的用法。
 
+## VS Code使用
+- [visual studio code 安装](https://code.visualstudio.com/)
+- 使用 Typings 实现智能提示功能
+> - `npm install -g typings`
+> - `typings install dt~node --global --save`
+> - `typings install lodash --save`
+> - `/// <reference path="./typings/index.d.ts" />`
+
 ----
 记得最后使用：
 * 切换npm淘宝镜像：npm config set registry <https://registry.npm.taobao.org/>
